@@ -78,6 +78,7 @@
 (fcitx-aggressive-setup)
 (add-hook! 'org-mode-hook (company-mode -1))
 (add-hook! 'org-capture-mode-hook (company-mode -1))
+
 (setq projectile-project-search-path '("/home/jadezz/graphics")
 ;; setting font
       default-directory "~"
@@ -85,7 +86,15 @@
       org-ellipsis " ▾ "
       org-tags-column -80
       fcitx-use-dbus t
-      company-show-quick-access t)
+      company-show-quick-access t
+      org-startup-folded t
+      org-return-follows-link t
+      org-startup-with-inline-images t
+      org-startup-with-latex-preview t
+      org-image-actual-width 500
+      org-preview-html-refresh-configuration 'manual
+      org-preview-html-viewer 'xwidget)
+
 (cnfonts-mode 1)
 (after! org
   (set-face-attribute 'org-level-1 nil

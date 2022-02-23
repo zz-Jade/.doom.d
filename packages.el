@@ -54,3 +54,4 @@
 (package! org-super-agenda)
 (package! ascii-art-to-unicode)
 (package! cnfonts)
+(package! org-preview-html)
