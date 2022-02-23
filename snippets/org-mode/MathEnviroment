@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: MathEnviroment
+# key: ma
+# --
+\begin{equation}
+$0
+\end{equation}
